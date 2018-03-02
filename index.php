@@ -1,7 +1,7 @@
 <?php
 include "curl.php";
-$test = get_web_page("http://igovphil.github.io/java-exam-01/uacs-agency.json");
-$data = json_decode($test);
+$json = get_web_page("http://igovphil.github.io/java-exam-01/uacs-agency.json");
+$data = json_decode($json);
 ?>
 
 <html>
